@@ -41,7 +41,7 @@ a {
 }
 
 .encabezado h1 {
-  font-size: 3rem;
+  font-size: 3.3rem;
 }
 
 section {
@@ -52,6 +52,7 @@ section {
   flex-wrap: wrap;
   height: 70%;
   width: 100%;
+  gap: 1rem;
 }
 
 .imagen {
