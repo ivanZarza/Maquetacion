@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+  height: 100vh;
+  width: 820px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 98vh;
+    width: 98%;
+    border: 10px solid rgb(153, 153, 153);
+    border-radius: 20px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border: 8px solid rgb(96, 251, 112);
+    border-radius: 10px;
+    height: 13%;
+    width: 98%;
+}
+
+.nav {
+    border: 8px solid pink;
+    border-radius: 10px;
+    height: 10%;
+    width: 98%;
+}
+
+.div_padre {
+    display: flex;
+    justify-content: space-around;
+    height: 65%;
+    width: 98%;
+    gap: 3px;
+}
+
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+    border: 8px solid rgba(0, 0, 255, 0.453);
+    border-radius: 10px;
+    height: 100%;
+    width: 73%;
+    gap: 8px;
+}
+
+.article_div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25%;
+    width: 98%;
+} 
+
+
+.article_div1 header {
+  border: 8px solid green;
+  border-radius: 10px;
+  height: 70%;
+}
+
+.article_div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 38%;
+    width: 100%;
+
+}
+
+.article_div2 section {
+    border: 8px solid blueviolet;
+    border-radius: 10px;
+    height: 34%;
+    width: 98%;
+}
+
+.article_div2 footer {
+    border: 8px solid yellow;
+    border-radius: 10px;
+    height: 20%;
+    width: 98%;
+}
+
+.div_padre_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  gap: 8px;
+  border: 8px solid yellow;
+  border-radius: 10px;
+}
+
+.texto_div{
+  width: 90%;
+}
+
+.div_aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 98%;
+}
+
+  aside {
+  border: 8px solid rgba(0, 0, 255, 0.453);
+  border-radius: 10px;
+  height: 49%;
+  width: 96%;
+}
+
+.footer {
+  display : flex;
+  align-items: center;
+    border: 8px solid yellow;
+    border-radius: 10px;
+    height: 10%;
+    width: 98%;
+    gap: 30px;
+}
+
