@@ -1,0 +1,203 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 520px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.container_interno {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 77%;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.parte_superior {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.logo {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 280px;
+}
+
+.parte_media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.form input {
+  width: 110%;
+  padding: 20px;
+  margin: 5px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  font-size: 1.2rem;
+}
+
+.form button {
+  width: 120%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #38afff;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #38afff;
+}
+
+.separacion {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.linea {
+color: #afafaf;
+}
+
+.login-facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+
+.login-facebook img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.login-facebook a {
+  color: #0095f6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contraseña_olvidada {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.contraseña_olvidada a {
+  color: #00376b;
+  text-decoration: none;
+}
+
+.denunciar {
+  width: 80%;
+  text-align: justify;
+  font-size: 1.1rem;
+  font-weight: 100;
+  margin-top: 10px;
+  color: #5c5c5c;
+}
+
+.denunciar a {
+  color: #00376b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.parte_inferior {
+  width: 95%;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+}
+
+.parte_inferior a {
+  color: #38afff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.descargar {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.descargas {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descargas a {
+  width: 80%;
+}
+
+.descargas img {
+  width: 200px;
+  margin-right: 10px;
+}
